@@ -2,9 +2,9 @@
 
 error_reporting(E_ERROR);
 
-define('DATA_DIR', 'entries'); // use this to protect files from being publicly viewable
-define("USERNAME", 'demo');
-define('PASSWORD', 'demo');
+define('DATA_DIR', 'notepad_notes'); // use this to protect files from being publicly viewable
+define("USERNAME", 'dwainm');
+define('PASSWORD', '1mDwain@notepad');
 
 if (($_SERVER['PHP_AUTH_USER'] !== USERNAME) || ($_SERVER['PHP_AUTH_PW'] !== PASSWORD)) {
     header('WWW-Authenticate: Basic realm="Cloud Notes"');
