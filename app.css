@@ -42,3 +42,4 @@ a { text-decoration:none; color:#666; }
   #preview nav li { float:right; }
   #preview nav ul { float:right; margin-bottom:-10em; }
   #close-preview a {  }
+  #entry-content{ width:100%; }
