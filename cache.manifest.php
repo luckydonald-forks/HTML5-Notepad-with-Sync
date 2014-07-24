@@ -4,6 +4,7 @@ CACHE MANIFEST
 
 CACHE:
 index.html
+app.css
 images/icon-doc.png
 js/jquery.min.js
 js/wysiwym/wysiwym.js
